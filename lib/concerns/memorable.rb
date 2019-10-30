@@ -1,7 +1,7 @@
 module Memorable
 
   module ClassMethods
-    @@all = []
+    # @@all = []
     def reset_all
       self.all.clear
     end
@@ -10,9 +10,9 @@ module Memorable
       self.all.count
     end
 
-    def all
-      @@all
-    end
+    # def all
+    #   @@all
+    # end
   end
 
   module InstanceMethods
