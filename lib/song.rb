@@ -12,9 +12,9 @@ class Song
   # @@songs = []
   @@all = []
 
-  def self.all
-    @@songs
-  end
+  # def self.all
+  #   @@songs
+  # end
 
   def artist=(artist)
     @artist = artist
